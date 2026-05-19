@@ -37,6 +37,7 @@ Whether you're a researcher, developer, or enthusiast, this repository is your g
 - 🦌 [DeerFlow](https://deerflow.tech/): ByteDance's research and analysis solution (May 9, 2025)
 - <img src="https://www.google.com/s2/favicons?sz=24&domain_url=chat.qwen.ai" width="16" style="vertical-align: -15px;"/> [Deep Research](https://chat.qwen.ai/?inputFeature=deep_research): Alibaba's Qwen-powered research assistant (May 14, 2025)
 - <img src="https://www.google.com/s2/favicons?sz=24&domain_url=moonshot.cn" width="16" style="vertical-align: -10px;"/> [Kimi-Researcher](https://moonshotai.github.io/Kimi-Researcher/): Moonshot's research assistant powered by Kimi (June 20, 2025)
+- <img src="https://www.google.com/s2/favicons?sz=24&domain_url=nothumansearch.ai" width="20" style="vertical-align: -10px;"/> [Not Human Search](https://nothumansearch.ai): Search engine for AI agents. Available as MCP server for tool discovery.
 
 
 ## Open-Source Implementations
@@ -72,6 +73,7 @@ Whether you're a researcher, developer, or enthusiast, this repository is your g
 
 | Title | Date & Code | Base model | Optimization | Search Engine | Agent Architecture | Training Dataset | Evaluation Dataset |
 | --- | :---: | --- | --- | --- | --- | --- | --- |
+| [CORAL: Towards Autonomous Multi-Agent Evolution for Open-Ended Discovery](https://arxiv.org/abs/2604.01658) | [2026/04/02](https://github.com/Human-Agent-Society/CORAL) [![GitHub stars](https://img.shields.io/github/stars/Human-Agent-Society/CORAL?style=social)](https://github.com/Human-Agent-Society/CORAL) | Claude (agent backbone) | Evolutionary Search (heartbeat-guided) | – | Multi-Agent | – | 10 math/algorithmic/systems benchmarks (incl. Anthropic kernel-engineering) |
 | [Dr. Zero: Self-Evolving Search Agents without Training Data](https://arxiv.org/abs/2601.07055) | [2026/01/11](https://github.com/facebookresearch/drzero) [![GitHub stars](https://img.shields.io/github/stars/facebookresearch/drzero?style=social)](https://github.com/facebookresearch/drzero) | Qwen2.5-3B-Instruct, Qwen2.5-7B-Instruct | HRPO | Web Search | Multi-Agent | – | NQ, TriviaQA, PopQA, HotpotQA, 2WikiMultihopQA (2WikiMQA), MuSiQue, Bamboogle |
 | [LEAPS: An LLM-Empowered Adaptive Plugin for Taobao AI Search](https://arxiv.org/abs/2601.05513) | [2026/01/09]() | Qwen3-14B | REINFORCE++, GRPO, GSPO | Local Retrieval | Single-Agent | – | – |
 | [SmartSearch: Process Reward-Guided Query Refinement for Search Agents](https://arxiv.org/abs/2601.04888) | [2026/01/08](https://github.com/RUC-NLPIR/SmartSearch) [![GitHub stars](https://img.shields.io/github/stars/RUC-NLPIR/SmartSearch?style=social)](https://github.com/RUC-NLPIR/SmartSearch) | Qwen2.5-3B-Instruct | SFT, DPO, GRPO | Web Search | Single-Agent | Asearcher-Base | 2WikiMultihopQA, HotpotQA, Bamboogle, MuSiQue, GAIA, WebWalker |
